@@ -5,12 +5,13 @@ import checkIcon from '../assets/icons/check.svg';
 export function Pircing() {
     return (
         <>
-            <div className='w-full h-[120vh] items-center flex flex-col -mt-[8rem] font-medium px-[4.375rem]'>
-                <div className='flex h-[20vh] w-full justify-between items-center mb-[6rem] mt-[2.5rem]'>
+            <div className='absolute w-[720px] h-[1px] bg-greySecond left-[22.5%] top-[105.5vh]'></div>
+            <div className='w-full h-[120vh] items-center flex flex-col -mt-[6rem] font-medium px-[4.375rem]'>
+                <div className='flex h-[20vh] w-full justify-between items-center mb-[4.5rem] mt-[2.5rem]'>
                     <div>
                         <p className='text-[14px] text-greyMain font-normal'>WYKAZ ŚWIADCZONYCH USŁUG</p>
                         <h2 className='font-bold text-[30px] max-w-[500px]'>Propozycje zestawów barmańskich, które mogą was zainteresować.</h2>
-                        <p className='max-w-[615px] text-greyMain font-normal text-[16px]'>The king, seeing how much happier his subjects were, realized the error
+                        <p className='max-w-[615px] text-greyMain font-normal text-[16px] mt-3'>The king, seeing how much happier his subjects were, realized the error
                             of his ways and repealed the joke tax. Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Ut quis est sed odio porta consectetur.
                             Sed tincidunt est.</p>
