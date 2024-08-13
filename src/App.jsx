@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar.jsx";
 import AnimatedCursor from "react-animated-cursor"
 import {Header} from "@/components/Header.jsx";
 import {About} from "@/components/About.jsx";
+import {Pircing} from "@/components/Pircing.jsx";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             ]}/>
         <Navbar/>
         <Header/>
+        <Pircing/>
         <About/>
     </>
   )

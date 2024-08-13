@@ -6,7 +6,7 @@ import arrowRightBlackIcon from "../assets/icons/arrows/arrBlackLongIconR.svg";
 export function Header() {
     return (
         <>
-            <div className="w-full h-[100vh] flex flex-1 items-center -mt-[8rem] bg-bgWhite font-medium px-[4.375rem]">
+            <div className="w-full h-[120vh] flex flex-1 items-center -mt-[8rem] bg-bgWhite font-medium px-[4.375rem]">
                 <div>
                     <p className='animate-slidein [--slidein-delay:1800ms] opacity-0 text-oragneMain font-normal border w-[18rem] justify-center items-center flex rounded-full py-1 my-4 '>#1
                         Mobilni specjaliści od drinków</p>
