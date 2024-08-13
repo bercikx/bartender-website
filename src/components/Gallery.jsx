@@ -1,7 +1,7 @@
 export function Gallery() {
     return (
         <>
-            <div className='w-full h-[80vh] flex flex-col items-center'>
+            <div className='w-full h-[80vh] flex flex-col items-center overflow-hidden'>
                 <div>
                     <div className='flex items-center mb-[5rem] w-full mx-auto justify-center'>
                         <div className='w-[350px] h-[1px] bg-greySecond'></div>
