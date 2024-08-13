@@ -2,6 +2,8 @@ import arrowRightIcon from "@/assets/icons/arrows/arrWhiteLongIconR.svg";
 import messIcon from '../assets/icons/social-media/chatIcon.svg';
 import checkIcon from '../assets/icons/check.svg';
 
+const basicAnim = 'transition-transform duration-300 hover:scale-[1.10] ease-in-out';
+
 export function Pircing() {
     return (
         <>
@@ -24,7 +26,7 @@ export function Pircing() {
                     </div>
                 </div>
                 <div className='w-full h-[100vh] flex'>
-                    <div className='w-[440px] h-[580px] mt-[2rem] border-[1px] border-greySecond rounded-[6px]'>
+                    <div className={`w-[440px] h-[580px] mt-[2rem] border-[1px] border-greySecond rounded-[6px]${basicAnim}`}>
                         <div className='flex flex-col'>
                             <div className='flex mx-auto mt-8'>
                                 <img src={messIcon} className='mr-2'/>
@@ -56,7 +58,7 @@ export function Pircing() {
                                 <img src={arrowRightIcon} className='ml-5 w-6'/></button>
                         </div>
                     </div>
-                    <div className='w-[440px] mx-8 h-[580px] border-[4px] bg-orangeThird border-orangeThird z-10 rounded-[6px]'>
+                    <div className={`w-[440px] mx-8 h-[580px] border-[4px] bg-orangeThird border-orangeThird z-10 rounded-[6px]${basicAnim}`}>
                         <div className='flex flex-col'>
                             <div className='flex mx-auto mt-8'>
                                 <img src={messIcon} className='mr-2'/>
@@ -90,7 +92,7 @@ export function Pircing() {
                                 <img src={arrowRightIcon} className='ml-5 w-6'/></button>
                         </div>
                     </div>
-                    <div className='w-[440px] h-[580px] mt-[2rem] border-[1px] border-greySecond rounded-[6px]'>
+                    <div className={`w-[440px] h-[580px] mt-[2rem] border-[1px] border-greySecond rounded-[6px]${basicAnim}`}>
                         <div className='flex flex-col'>
                             <div className='flex mx-auto mt-8'>
                                 <img src={messIcon} className='mr-2'/>
