@@ -1,9 +1,11 @@
 import arrowRightIcon from "@/assets/icons/arrows/arrWhiteLongIconR.svg";
+import messIcon from '../assets/icons/social-media/chatIcon.svg';
+import checkIcon from '../assets/icons/check.svg';
 
 export function Pircing() {
     return (
         <>
-            <div className='w-full h-[100vh] items-center flex flex-col -mt-[8rem] font-medium px-[4.375rem]'>
+            <div className='w-full h-[120vh] items-center flex flex-col -mt-[8rem] font-medium px-[4.375rem]'>
                 <div className='flex h-[20vh] w-full justify-between items-center mb-[6rem] mt-[2.5rem]'>
                     <div>
                         <p className='text-[14px] text-greyMain font-normal'>WYKAZ ŚWIADCZONYCH USŁUG</p>
@@ -20,44 +22,106 @@ export function Pircing() {
                             <img src={arrowRightIcon} className='ml-5 w-6'/></button>
                     </div>
                 </div>
-                <div className='w-full h-[80vh] flex'>
-                    <div className='w-[440px] h-[480px] bg-greyMain mt-[2rem]'>
+                <div className='w-full h-[100vh] flex'>
+                    <div className='w-[440px] h-[580px] mt-[2rem] border-[1px] border-greySecond rounded-[6px]'>
                         <div className='flex flex-col'>
-                            <div className='flex mx-auto'>
-                                <p className='pr-2'>Icon</p>
-                                <h2>Pakiet Podstawowy</h2>
+                            <div className='flex mx-auto mt-8'>
+                                <img src={messIcon} className='mr-2'/>
+                                <h2 className='text-[20px] font-bold'>Pakiet Podstawowy</h2>
                             </div>
-                            <p className='mx-auto'>Realized the error of his ways.</p>
+                            <p className='mx-auto text-[14px] text-greyMain font-medium'>Realized the error of his ways.</p>
                         </div>
-                        <p className='flex mx-auto text-center my-4'>Nasza firma oferuje precyzyjne i staranne usługi detailingu, korzystając z
+                        <p className='flex mx-auto text-justify my-7 max-w-[355px] text-[16px] font-normal text-greyMain'>Nasza firma oferuje precyzyjne i staranne usługi detailingu, korzystając z
                             najwyższej jakości produktów i nowoczesnych technik. Gwarantujemy
                             długotrwałą ochronę dla samochodu.</p>
                         <div className='mx-auto flex flex-col'>
-                            <div className='flex mx-auto'>
-                                <p className='pr-2'>Icon</p>
-                                <p>Następny nie potrzebny wypełniacz tekstu</p>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Dolor sit amet, consectetur adipiscing elits. amet, consectetur dsdxz</p>
                             </div>
-                            <div className='flex mx-auto'>
-                                <p className='pr-2'>Icon</p>
-                                <p>Następny nie potrzebny wypełniacz tekstu</p>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Ut quis est sed odio porta consectetur. Sed tincidunt est.</p>
                             </div>
-                            <div className='flex mx-auto'>
-                                <p className='pr-2'>Icon</p>
-                                <p>Następny nie potrzebny wypełniacz tekstu</p>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Oren ipsum dolor est porta sed tincidunt elit. consectetur amet dolos sit.</p>
                             </div>
                         </div>
-                        <div className='flex justify-center items-end mx-auto h-[215px]'>
+                        <div className='flex justify-center items-end mx-auto mt-10'>
                             <button className='flex xl:py-5 xl:px-12 xl:text-[16px] lg:py-4 lg:px-10 lg:text-[14px] bg-oragneMain
                             items-center justify-center font-medium text-white hover:bg-darkOrange transition ease-in'>
                                 Skontaktuj się z nami
                                 <img src={arrowRightIcon} className='ml-5 w-6'/></button>
                         </div>
                     </div>
-                    <div className='w-[420px] h-[480px] bg-orangeSecond'>
-                        tekst
+                    <div className='w-[440px] mx-8 h-[580px] border-[4px] bg-orangeThird border-orangeThird z-10 rounded-[6px]'>
+                        <div className='flex flex-col'>
+                            <div className='flex mx-auto mt-8'>
+                                <img src={messIcon} className='mr-2'/>
+                                <h2 className='text-[20px] font-bold'>Pakiet Podstawowy</h2>
+                            </div>
+                            <p className='mx-auto text-[14px] text-greyMain font-medium'>Realized the error of his
+                                ways.</p>
+                        </div>
+                        <p className='flex mx-auto text-justify my-7 max-w-[355px] text-[16px] font-normal text-greyMain'>Nasza
+                            firma oferuje precyzyjne i staranne usługi detailingu, korzystając z
+                            najwyższej jakości produktów i nowoczesnych technik. Gwarantujemy
+                            długotrwałą ochronę dla samochodu.</p>
+                        <div className='mx-auto flex flex-col'>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Dolor sit amet, consectetur adipiscing elits. amet, consectetur dsdxz</p>
+                            </div>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Ut quis est sed odio porta consectetur. Sed tincidunt est.</p>
+                            </div>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Oren ipsum dolor est porta sed tincidunt elit. consectetur amet dolos sit.</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center items-end mx-auto mt-10'>
+                            <button className='flex xl:py-5 xl:px-12 xl:text-[16px] lg:py-4 lg:px-10 lg:text-[14px] bg-oragneMain
+                            items-center justify-center font-medium text-white hover:bg-darkOrange transition ease-in'>
+                                Skontaktuj się z nami
+                                <img src={arrowRightIcon} className='ml-5 w-6'/></button>
+                        </div>
                     </div>
-                    <div className='w-[440px] h-[480px] bg-greyMain mt-[2rem]'>
-                        tekst
+                    <div className='w-[440px] h-[580px] mt-[2rem] border-[1px] border-greySecond rounded-[6px]'>
+                        <div className='flex flex-col'>
+                            <div className='flex mx-auto mt-8'>
+                                <img src={messIcon} className='mr-2'/>
+                                <h2 className='text-[20px] font-bold'>Pakiet Podstawowy</h2>
+                            </div>
+                            <p className='mx-auto text-[14px] text-greyMain font-medium'>Realized the error of his
+                                ways.</p>
+                        </div>
+                        <p className='flex mx-auto text-justify my-7 max-w-[355px] text-[16px] font-normal text-greyMain'>Nasza
+                            firma oferuje precyzyjne i staranne usługi detailingu, korzystając z
+                            najwyższej jakości produktów i nowoczesnych technik. Gwarantujemy
+                            długotrwałą ochronę dla samochodu.</p>
+                        <div className='mx-auto flex flex-col'>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Dolor sit amet, consectetur adipiscing elits. amet, consectetur dsdxz</p>
+                            </div>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Ut quis est sed odio porta consectetur. Sed tincidunt est.</p>
+                            </div>
+                            <div className='flex justify-start max-w-[355px] mx-auto mb-5 font-normal text-greyMain'>
+                                <img src={checkIcon} className='mr-7'/>
+                                <p>Oren ipsum dolor est porta sed tincidunt elit. consectetur amet dolos sit.</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center items-end mx-auto mt-10'>
+                            <button className='flex xl:py-5 xl:px-12 xl:text-[16px] lg:py-4 lg:px-10 lg:text-[14px] bg-oragneMain
+                            items-center justify-center font-medium text-white hover:bg-darkOrange transition ease-in'>
+                                Skontaktuj się z nami
+                                <img src={arrowRightIcon} className='ml-5 w-6'/></button>
+                        </div>
                     </div>
                 </div>
             </div>

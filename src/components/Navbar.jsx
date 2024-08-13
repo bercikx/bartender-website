@@ -24,7 +24,7 @@ function Navbar() {
     return (
         <>
             {/* Container for Navigation */}
-            <div className={`h-[14vh] w-[100vw] px-[1.875rem] flex justify-center bg-white font-medium sticky top-0 z-10`}>
+            <div className={`h-[14vh] w-[100vw] px-[1.875rem] flex justify-center bg-white font-medium sticky top-0 z-50`}>
                 {/* Inner-container */}
                 <div className={`w-[100vw] mx-auto flex items-center justify-between px-[2.5rem]`}>
                     {/* Logotype */}

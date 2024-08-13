@@ -14,6 +14,7 @@ export default {
       greySecond: '#DEE0EA',
       white: '#FFFFFF',
       darkOrange: '#DC5302',
+      orangeThird: '#FFFAF6',
     },
     screens: {
       'sm': '0px',
