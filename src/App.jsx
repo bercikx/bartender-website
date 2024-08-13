@@ -4,6 +4,7 @@ import {Header} from "@/components/Header.jsx";
 import {About} from "@/components/About.jsx";
 import {Pircing} from "@/components/Pircing.jsx";
 import {Gallery} from "@/components/Gallery.jsx";
+import {Contact} from "@/components/Contact.jsx";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Pircing/>
         <Gallery/>
         <About/>
+        <Contact/>
     </>
   )
 }
