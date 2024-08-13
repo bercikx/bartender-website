@@ -1,0 +1,11 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi?styles=135009,135005,135007,135002,135000');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Satoshi', sans-serif;
+    box-sizing: border-box;
+}
