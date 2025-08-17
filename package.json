@@ -40,5 +40,16 @@
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.8",
     "vite": "^5.4.0"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bercikx/bartender-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bercikx/bartender-website/issues"
   }
 }
